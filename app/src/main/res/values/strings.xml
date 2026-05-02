@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShakeWake</string>
+    <string name="accessibility_service_description">ShakeWake lets you wake your phone by shaking it, take screenshots with a double-press of volume down, and lock the screen with a double-press of volume up. Single volume key presses work normally.</string>
+
+    <!-- Main activity -->
+    <string name="status_enabled">✅ Accessibility service is running</string>
+    <string name="status_disabled">❌ Accessibility service is not running</string>
+    <string name="btn_open_settings">Open Accessibility Settings</string>
+    <string name="btn_enable_shake">Shake to Wake: ON</string>
+    <string name="btn_disable_shake">Shake to Wake: OFF</string>
+    <string name="title_features">Features</string>
+    <string name="feature_shake">🍎 Shake to wake screen</string>
+    <string name="feature_screenshot">📸 Double Volume Down → Screenshot</string>
+    <string name="feature_lock">🔒 Double Volume Up → Lock Screen</string>
+    <string name="feature_volume">🔊 Single volume presses work normally</string>
+    <string name="title_permissions">Permissions</string>
+    <string name="perm_accessibility">Accessibility Service — required for volume key interception and screen control</string>
+    <string name="perm_notification">Notifications — required for foreground service notification</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_not_granted">Not granted</string>
+    <string name="title_how_to">How to Enable</string>
+    <string name="step1">1. Tap "Open Accessibility Settings" below</string>
+    <string name="step2">2. Find and tap "ShakeWake" in the list</string>
+    <string name="step3">3. Toggle the switch to ON</string>
+    <string name="step4">4. Accept the permission dialog</string>
+    <string name="channel_name">ShakeWake Service</string>
+    <string name="notification_title">ShakeWake Active</string>
+    <string name="notification_text">Shake to wake • Vol↓×2 Screenshot • Vol↑×2 Lock</string>
+    <string name="toast_screenshot_saved">Screenshot saved</string>
+    <string name="toast_screenshot_failed">Screenshot failed</string>
+    <string name="toast_screenshot_api">Screenshot is not available on this device</string>
+</resources>

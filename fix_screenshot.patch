@@ -1,0 +1,11 @@
+--- app/src/main/java/com/shakewake/ShakeWakeAccessibilityService.kt
++++ app/src/main/java/com/shakewake/ShakeWakeAccessibilityService.kt
+@@ -235,7 +235,7 @@
+             }
+ 
+             takeScreenshot(displayId, { r -> r.run() }, object : TakeScreenshotCallback {
+-                override fun onSuccess(screenshot: Screenshot) {
++                override fun onSuccess(screenshot: AccessibilityService.ScreenshotResult) {
+                     try {
+                         val hardwareBuffer = screenshot.hardwareBuffer
+                         val colorSpace = screenshot.colorSpace
