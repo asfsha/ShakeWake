@@ -1,0 +1,73 @@
+# Gradle
+.gradle/
+build/
+*.gradle
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.aar
+local.properties
+proguard/
+
+# Build outputs
+app/build/
+*/build/
+*.apk
+*.aab
+*.ap_
+
+# Keystore and secrets
+*.keystore
+*.jks
+secrets/
+keystore_*
+
+# IDE
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Environment and local configuration
+.env
+.env.local
+local.properties
+
+# Caches
+.lint/
+lint-cache/
+
+# Kotlin
+.kotlin_build/
+kotlinc-result.bin
+
+# Firebase
+google-services.json
+
+# NDK
+obj/
+libs/
+
+# Misc
+*.orig
+*.patch
